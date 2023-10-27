@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: "Open Sans", sans-serif;
+            background-color: rgb(2, 2, 14);
+            color:#dee2e6;
+        }
+        header{
+            height: 90px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            background: #09203a;
+            position: fixed;
+            width: 100%;
+
+
+        }
+        .container{
+            display: inlines;
+            flex-wrap: wrap
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0%;
+        
+        }
+        a{
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: green;
+            border-bottom: 2px solid orange;
+            transition: border 0.5s ease-out;
+           
+        }
+        .list{
+            /* border: 1px solid wheat; */
+            float: right;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        .name h1{
+            /* border: 1px solid wheat; */
+            display: inline;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            
+        }
+        .name{
+            margin-left: 100px;
+            margin-top: 27px;
+            float:left ;
+        }
+        .content{
+            /* border: 1px solid white; */
+            padding: 20px 20px;
+            margin: 20px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 94px;
+        }
+        .left{
+            /* border: 1px solid white; */
+            height: 480px;
+            width: 35%;
+            float: left;
+            background-image: url("photo1.jpeg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .right{
+            /* border: 1px solid white; */
+            height: 450px;
+            width: 60%;
+            float: right;
+            padding: 20px 20px;
+        }
+        .right p{
+            font-size: large;
+            line-height: 30px;
+            /* text-align: center; */
+        }
+        li {
+            font-size: 20px;
+            display: list-item;
+            text-align: -webkit-match-parent;
+            gap:20px;
+        }
+        span{
+            color: green;
+            font-weight: bold;
+        }
+        p{
+            display: inline;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="continer">
+                <div class="name">
+                    <h1 style="color:#dee2e6;">G. RAMADEVI</h1>
+                </div>
+                <div class="list">
+                    <ul type="none">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="Skills.html">Skills</a></li>
+                        <LI><a href="https://drive.google.com/file/d/1v-oGt_UzAyNSdCAzY15Ffzvj6LsxBmQV/view?usp=drive_link" target="_blank">Resume</a></LI>
+                        <li><a href="cont.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>
+    </div>
+   
+    <div class="content">
+        
+        <div class="left">
+        </div>
+        <div class="right">
+            <h3 style="color: rgb(251, 251, 251);">About Me_______</h3>
+            <p>Dedicated and energetic developer with a passion for both web and software development. My interest for these fields was sparked by extensive exposure to the underlying ideas and their vivid application to several projects. I'm an enthusiastic person who enjoys creating and using algorithms to address issues facing the real world of business.</p>
+            <ul type="none">
+                <li><span>></span> <strong>Birthday:</strong><p> 9 July 2001</p></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>></span> <strong>Phone:</strong><p> +91 9182737311</p></li>
+                <li><span>></span> <strong>City:</strong><p> Kurnool, Andhra Pradesh, 518002</p> </li>
+                <li><span>></span> <strong>Mail:</strong><P> ramadevigolla566@gmail.com</P></li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

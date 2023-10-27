@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: "Open Sans", sans-serif;
+            background-color: rgb(2, 2, 14);
+            color:#dee2e6;
+        }
+        header{
+            height: 90px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            background: #09203a;
+            position: fixed;
+            width: 100%;
+
+
+        }
+        .container{
+            display: inlines;
+            flex-wrap: wrap
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0%;
+        
+        }
+        a{
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: green;
+            border-bottom: 2px solid orange;
+            transition: border 0.5s ease-out;
+           
+        }
+        .list{
+            /* border: 1px solid wheat; */
+            float: right;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        .name h1{
+            /* border: 1px solid wheat; */
+            display: inline;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            
+        }
+        .name{
+            margin-left: 100px;
+            margin-top: 27px;
+            float:left ;
+        }
+        .content{
+            /* border: 1px solid white; */
+            padding: 20px 20px;
+            margin: 20px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            /* margin-top: 94px; */
+            column-gap: 20px;
+        }
+        .school,.inter,.btech{
+            /* border: 1px solid white; */
+            height: 400px;
+            width: 300px;
+            background-color: #041324;
+            line-height: 20px;
+            color: white;
+        }
+        .simg{
+            border: 1px solid white;
+            background-image: url("schoolimg.jpg");
+            background-size: cover;
+            height:280px;
+            width: 100%;
+           
+        }
+        .Iimg{
+            border: 1px solid white;
+            background-image: url("inter.jpg");
+            background-size: contain;
+            height:230px;
+            width: 100%;
+        }
+        .bimg{
+            border: 1px solid white;
+            background-image: url("btech.jpg");
+            background-size: contain;
+            height:230px;
+            width: 100%;
+        }
+        /* .school,.inter,.btech{
+            margin-left: 20px;
+        } */
+        .inter:hover{
+            cursor: pointer;
+            background-color: #09203a;
+        }
+        .school:hover{
+            cursor: pointer;
+            background-color: #09203a;
+        }
+        .btech:hover{
+            cursor: pointer;
+            background-color: #09203a;
+        }
+        .cert{
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        .c1{
+            /* border: 1px solid white; */
+            background-image: url("c1.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100px;
+            width: 300px;
+            margin-left: 32px;
+        }
+        .c2{
+            /* border: 1px solid white; */
+            background-image: url("c2.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100px;
+            width: 300px;
+            margin-left: 32px;
+        }
+        .c3{
+            /* border: 1px solid white; */
+            background-image: url("c3.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100px;
+            width: 300px;
+            margin-left: 32px;
+        }
+        .c4{
+            /* border: 1px solid white; */
+            background-image: url("c4.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 150px;
+            width: 300px;
+            margin-left: 32px;
+            border-color: white;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="continer">
+                <div class="name">
+                    <h1 style="color:#dee2e6;">G. RAMADEVI</h1>
+                </div>
+                <div class="list">
+                    <ul type="none">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="Skills.html">Skills</a></li>
+                        <LI><a href="https://drive.google.com/file/d/1v-oGt_UzAyNSdCAzY15Ffzvj6LsxBmQV/view?usp=drive_link" target="_blank">Resume</a></LI>
+                        <li><a href="cont.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>
+    </div>
+    <h3 style="margin-top: 150px; margin-left: 30px;">Education____</h3>
+    <div class="content">
+        <div class="btech">
+            <div class="bimg"></div>
+            <h3 style="margin: 4px;color: white;">B-Tech:</h3>
+            <strong style="margin-left: 3px;">Passedout Year:</strong> <p style="display: inline;color: white;">2022</p>
+            <h3 style="margin: 3px;">ECE</h3>
+        </div>
+        <div class="inter">
+            <div class="Iimg"></div>
+            <h3 style="margin: 4px;color: white;">Inter Mediate:</h3>
+            <strong style="margin-left: 3px;">Passedout Year:</strong> <p style="display: inline;color: white;">2018</p>
+            <h3 style="margin: 3px;">MPC</h3>
+        </div>
+        <div class="school">
+            <div class="simg"></div>
+            <h3 style="margin: 4px;color: white;">Primary School:</h3>
+            <strong style="margin-left: 3px;">Passedout Year:</strong> <p style="display: inline;color: white;">2016</p>
+            <h3 style="margin: 3px;">SSC</h3>
+
+        </div>
+        
+        
+    </div>
+  
+    <h3 style="margin-top: 0px; margin-left: 30px;">Certifications____</h3>
+    <div class="cert">
+        <div class="c1"></div>
+        <div class="c2"></div>
+        <div class="c3"></div>
+        <div class="c4"></div>
+    </div>
+    
+
+   
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: "Open Sans", sans-serif;
+            background-color: rgb(2, 2, 14);
+            color:#dee2e6;
+        }
+        header{
+            height: 90px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            background: #09203a;
+            position: fixed;
+            width: 100%;
+
+
+        }
+        .container{
+            display: inlines;
+            flex-wrap: wrap
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0%;
+        
+        }
+        .nav{
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .nav:hover{
+            color: green;
+            border-bottom: 2px solid orange;
+            transition: border 0.5s ease-out;
+           
+        }
+        .list{
+            /* border: 1px solid wheat; */
+            float: right;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        .name h1{
+            /* border: 1px solid wheat; */
+            display: inline;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            
+        }
+        .name{
+            margin-left: 100px;
+            margin-top: 27px;
+            float:left ;
+        }
+        .content{
+            /* border: 1px solid white; */
+            padding: 20px 20px;
+            margin: 10px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            /* margin-top: 94px; */
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        .s1{
+            
+            /* border: 1px solid white; */
+            padding: 20px 20px;
+            margin: 20px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        #s2{
+            
+            /* border: 1px solid white; */
+            padding: 20px 20px;
+            margin: 20px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 94px;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        #a4,#a5{
+            /* border: 1px solid white; */
+            height: 250px;
+            width: 300px;
+        }
+        #p1,#p2,#p3,#p4{
+            /* border: 1px solid white; */
+            height: 250px;
+            width: 300px;
+        }
+        button{
+            border: none;
+            outline: none;
+            border-radius: 6px;
+            height: 20px;
+            margin-top: 130px;
+            align-items: center;
+            margin-left: 20%;
+            padding:15px 30px;
+        }
+        button:hover{
+            background-color: rgb(109, 199, 109);
+        }
+        #slide{
+            /* border: 1px solid  white; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a{
+            text-decoration: none;
+        }
+        #a4{
+            background-image: url("web.png");
+            background-size: contain;
+            background-repeat:no-repeat ;
+            background-color: #031425;
+        }
+        #a5{
+            background-image: url("port.png");
+            background-size: contain;
+            background-repeat:no-repeat ;
+            background-color: #031425;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="continer">
+                <div class="name">
+                    <h1 style="color:#dee2e6;">G. RAMADEVI</h1>
+                </div>
+                <div class="list">
+                    <ul type="none">
+                        <li><a href="index.html" class="nav">Home</a></li>
+                        <li><a href="about.html" class="nav">About</a></li>
+                        <li><a href="education.html" class="nav">Education</a></li>
+                        <li><a href="project.html" class="nav">Projects</a></li>
+                        <li><a href="Skills.html" class="nav">Skills</a></li>
+                        <LI><a href="https://drive.google.com/file/d/1v-oGt_UzAyNSdCAzY15Ffzvj6LsxBmQV/view?usp=drive_link" target="_blank" class="nav">Resume</a></LI>
+                        <li><a href="cont.html" class="nav">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    
+        <div class="content">
+            <h3 style="margin-top: 120px; margin-left: 0px;">Projects____</h3> 
+            <button><a href="project.html" style="text-decoration: none;"><strong >ALL</strong></a></button>
+            <button style="margin-left: 10px;" ><a href="pbut.html" style="text-decoration: none;"><strong>Projects</strong</a></button>
+            <button style="margin-left: 10px;background-color: green;"><a href="bweb.html" style="text-decoration: none;"><strong>Web-site</strong></a></button>
+            
+        </div>
+        <div id="slide">
+            <div class="s1">
+                <div id="a4"><a href="https://ramadevigolla566.github.io/homedecor.web/"target="_blank"><p style="color: white;font-size: 30px;text-align: center;margin-top: 160px;margin-right: 20px;">Home Decor<br> Web-site</p></a></div>
+                <div id="a5"><a href="index.html"><p style="color: white;font-size: 30px;text-align: center;margin-top: 200px;margin-right: 20px;">Portfolio</p></a></div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
